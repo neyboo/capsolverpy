@@ -1,5 +1,5 @@
 # CapSolver.com Python Package
-[https://capsolver.com](CapSolver.com) Package for Python
+[CapSolver.com]([CapSolver.com](https://capsolver.com)) Package for Python
 
 Register For an Account here: [https://dashboard.capsolver.com/passport/register?inviteCode=RDIXzCKSntoQ](You Get Free Balance!)
 
