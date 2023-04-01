@@ -42,7 +42,7 @@ SolveCaptcha = CapSolver("API-KEY")
 Captcha = SolveCaptcha.solve({"task": {"type": "ReCaptchaV3TaskProxyLess", "websiteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-","websiteURL": "https://www.google.com/recaptcha/api2/demo", "pageAction": "login", minScore": 0.7}})
 print(Captcha)
 ```
-**FunCaptcha - FunCaptchaTaskProxyLess
+**FunCaptcha - FunCaptchaTaskProxyLess**
 ```python
 from CapSolver import CapSolver
 
@@ -50,7 +50,7 @@ SolveCaptcha = CapSolver("API-KEY")
 Captcha = SolveCaptcha.solve({"task": {"type": "FunCaptchaTaskProxyLess", "websitePublicKey": "","websiteURL": ""}})
 print(Captcha)
 ```
-**Cloudflare - Turnstile
+**Cloudflare - Turnstile**
 ```python
 from CapSolver import CapSolver
 
@@ -58,7 +58,7 @@ SolveCaptcha = CapSolver("API-KEY")
 SolvedToken = SolveCaptcha.solve({"task": {"type": "AntiCloudflareTask", "websiteURL": "https://peet.ws/turnstile-test/non-interactive.html","websiteKey": "0x4AAAAAAABS7vwvV6VFfMcD", "metadata": {"type": "turnstile"}, "proxy": "user:pass@ip:port"}})
 print(SolvedToken)
 ```
-**Cloudflare - Challenge
+**Cloudflare - Challenge**
 ```python
 from CapSolver import CapSolver
 
