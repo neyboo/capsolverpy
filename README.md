@@ -1,6 +1,9 @@
-# capsolverpy
-CapSolver.com is an Artificial intelligence Captcha Solving Service, to help you beat those pesky "Are you a bot" challenges!
+# CapSolver.com Python Package
+[https://capsolver.com](CapSolver.com) Package for Python
+
+Register For an Account here: [https://dashboard.capsolver.com/passport/register?inviteCode=RDIXzCKSntoQ](You Get Free Balance!)
 
 # Installation
 ```bash
-pip install capsolverpy
+pip install CapSolverPy
+```
