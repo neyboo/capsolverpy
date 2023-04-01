@@ -3,4 +3,4 @@ CapSolver.com is an Artificial intelligence Captcha Solving Service, to help you
 
 # Installation
 ```bash
-pip install capsolverpy```
+pip install capsolverpy
