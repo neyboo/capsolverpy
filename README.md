@@ -66,3 +66,5 @@ SolveCaptcha = CapSolver("API-KEY")
 SolvedToken = SolveCaptcha.solve({"task": {"type": "AntiCloudflareTask", "websiteURL": "https://minecraftpocket-servers.com/login/", "html": "<your challenge html source code>", "metadata": {"type": "challenge"}, "proxy": "user:pass@ip:port"}})
 print(SolvedToken)
 ```
+
+For More Information on these Tasks, please visit [CapSolver docs](https://docs.capsolver.com/guide/getting-started.html). There are a list of tasks you can do with this library
